@@ -1017,7 +1017,7 @@ form .form-control:focus {
     background: #6b396c;
   }
   header .navbar-default.scrolled {
-    background: #f4bf00;
+    background: #6b396c;
   }
   header .navbar-default.scrolled ul.navbar-nav li a {
     color: #ffffff;
@@ -1087,7 +1087,7 @@ form .form-control:focus {
   }
 }
 .pre-loader {
-  background: #f4bf00;
+  background: #6b396c;
 }
 
 /*--------------------------------------------------------------------------------------------------------------*/
