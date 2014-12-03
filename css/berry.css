@@ -760,10 +760,10 @@ header .navbar-default ul.navbar-nav li a:hover {
   transition: all 0.25s ease-in-out;
 }
 header .navbar-default.scrolled {
-  border-bottom: 3px solid #6b396c;
+  border-bottom: 3px solid #f4bf00;
 }
 header .navbar-default.scrolled ul.navbar-nav li a {
-  color: #6b396c;
+  color: #f4bf00;
 }
 header .navbar-default.scrolled ul.navbar-nav li a:hover {
   color: #6b396c;
