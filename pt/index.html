@@ -22,7 +22,6 @@
 
     <link rel="stylesheet" href="../css/berry.css">
 
-
     <script type="text/javascript" src="../js/modernizr.custom.32033.js"></script>
 
     <!--[if lt IE 9]>
@@ -55,20 +54,34 @@
     <!--End Facebook SDK -->
 
     <div class="pre-loader">
+    
         <div class="load-con">
             <img src="../img/berry/logo.png" class="animated fadeInDown" alt="">
             <div class="spinner">
               <div class="bounce1"></div>
               <div class="bounce2"></div>
               <div class="bounce3"></div>
-            </div>
+            </div>        
         </div>
     </div>
    
     <header>
+
+    
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+   <span> <span>    <dl id="country-select" class="dropdown">
+                                      <dt><a cunt_code="+44" href="javascript:void(0);"><span><span style="background-position:0px -517px"></span><span></span><span></span></span></a></dt>
+                                      <dd>
+                                        <ul style="display: none;">
+                                          <li><a cunt_code="+351" href="javascript:void(0);"><span style="background-position:0px -517px"></span><span></span><span></span></a></li>
+                                          
+                                          <li><a cunt_code="+44" href="javascript:void(0);"><span style="background-position:0px -55px"></span><span></span><span></span></a></li>
+                                        </ul>
+                                      </dd>
+   </dl></span></span>
                 <div class="container">
                     <!-- Brand and toggle get grouped for better mobile display -->
+                     
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                             <span class="fa fa-bars fa-lg"></span>
@@ -85,13 +98,16 @@
                             <li><a href="#about">Sobre</a>
                             </li>
                             <li><a href="#features">Features</a>
-                            </li>
+                            </li>                 
                             <li>
                                 <a href="#" data-toggle="modal" data-target="#bannerformmodal">Log In</a>
                                     
                             </li>
+
+
                         </ul>
                     </div>
+
                     <!-- /.navbar-collapse -->
                 </div>
                 <!-- /.container-->
@@ -314,14 +330,25 @@
 
     <div class="wrapper">
         <section id="about">
+        <div class="wrapper">
+                        <dl id="country-select" class="dropdown">
+                          <dt><a cunt_code="+44" href="javascript:void(0);"><span><span style="background-position:0px -517px"></span><span>Português</span><span></span></span></a></dt>
+                          <dd>
+                            <ul style="display: none;">
+                              <li><a cunt_code="+351" href="javascript:void(0);"><span style="background-position:0px -517px"></span><span>Português</span><span></span></a></li>
+                              
+                              <li><a cunt_code="+44" href="javascript:void(0);"><span style="background-position:0px -55px"></span><span>English</span><span></span></a></li>
+                            </ul>
+                          </dd>
+                        </dl>
+                        </div>
+                </div>
             <div class="container">
                 
                 <div class="section-heading scrollpoint sp-effect3">
                     <h1>SoL-Saving our Legacy</h1>
                     <div class="divider"></div>
                     <p>Somos SOL, queremos ajudar! </p>
-                </div>
-
                 <div class="row">
                     <div class="col-md-3 col-sm-3 col-xs-6">
                         <div class="about-item scrollpoint sp-effect2">
@@ -493,6 +520,7 @@
     <script src="../js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
     <script src="../js/waypoints.min.js"></script>
     <script src="../js/scripts.js"></script>
+    <script src="../js/dropdown.js"></script>
     <script>
         $(document).ready(function() {
             appMaster.preLoader();
