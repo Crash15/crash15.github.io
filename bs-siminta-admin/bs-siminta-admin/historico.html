@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,10 +10,11 @@
     <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
     <link href="assets/plugins/pace/pace-theme-big-counter.css" rel="stylesheet" />
     <link href="assets/css/style.css" rel="stylesheet" />
-    <link href="assets/css/main-style.css" rel="stylesheet" />
-    <!-- Page-Level CSS -->
-    <link href="assets/plugins/morris/morris-0.4.3.min.css" rel="stylesheet" />
-   </head>
+      <link href="assets/css/main-style.css" rel="stylesheet" />
+
+
+</head>
+
 <body>
     <!--  wrapper -->
     <div id="wrapper">
@@ -169,20 +171,20 @@
                     <li class="sidebar-search">
                        
                     </li>
-                     <li class="selected" >
+                    <li >
                         <a href="index.html"><i class="fa fa-dashboard fa-fw"></i>Home</a>
                     </li>
                     <li  >
                         <a href="educandos.html"><i class="fa fa-bar-chart-o fa-fw"></i>Educandos<span class="fa arrow"></span></a>
                       
                     </li>
-                     <li  >
+                     <li >
                         <a href="sumarios.html"><i class="fa fa-flask fa-fw"></i>Sumários<span class="fa arrow"></a>
                     </li>
-                    <li>
+                    <li  class="selected" >
                         <a href="historico.html"><i class="fa fa-table fa-fw"></i>Histórico<span class="fa arrow"></a>
                     </li>
-                    <li >
+                    <li>
                         <a href="tarefas.html"><i class="fa fa-edit fa-fw"></i>Tarefas<span class="fa arrow"></a>
                     </li>
                     <li>
@@ -192,7 +194,6 @@
                         <a href="definicoes.html"><i class="fa fa-table fa-fw"></i>Definições<span class="fa arrow"></a>
                     </li>
                   
-                  
                 </ul>
                 <!-- end side-menu -->
             </div>
@@ -200,160 +201,116 @@
         </nav>
         <!-- end navbar side -->
         <!--  page-wrapper -->
-        <div id="page-wrapper">
-
-           <div class="row">
-                <!-- Page Header -->
-                <div class="col-lg-12">
-                <br>  <!--  <h3 class="page-header">Resumo</h3>--></br>
-                </div>
-               <!-- End Page Header-->
-            </div>
-
+        <div id="page-wrapper" >
             <div class="row">
-                <!-- Welcome -->
+                <!-- page header-->
                 <div class="col-lg-12">
-                    <div class="alert alert-info">
-                        <i class="fa fa-folder-open"></i><b>&nbsp;Hello ! </b>Welcome Back <b>Jonny Deen </b>
-                    </div>
+                    <h1 class="page-header">Histórico</h1>
                 </div>
-                <!--end  Welcome -->
+                 <!-- end page header-->
             </div>
+
+      <div class="panel panel-default">
+                        <div class="panel-body">
+                            <ul class="nav nav-pills">
+                                <li class="active"><a href="#home-pills" data-toggle="tab">Ana </a>
+                                </li>
+                                <li class=""><a href="#profile-pills" data-toggle="tab">Teresa</a>
+                                </li>
+                                <li class=""><a href="#messages-pills" data-toggle="tab">Rui </a>
+                                </li>
+                                <li class=""><a href="#settings-pills" data-toggle="tab">Miguel</a>
+                                </li>
+                            </ul>
+    </div>
+    </div>
             <div class="row">
-                <!--quick info section -->
-                <div class="col-lg-3">
-                    <div class="alert alert-danger text-center">
-                        <i class="fa fa-calendar fa-3x"></i>&nbsp;<b>10 </b> Comportamentos perigosos este mês!
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="alert alert-success text-center">
-                        <i class="fa  fa-beer fa-3x"></i>&nbsp;<b>Aumento de 10% </b> na utilização do equipamento!  
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="alert alert-info text-center">
-                        <i class="fa fa-rss fa-3x"></i>&nbsp;<b>20</b> Tarefas cumpridas esta semana!
-
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="alert alert-warning text-center">
-                        <i class="fa  fa-pencil fa-3x"></i>&nbsp;<b>Já conviveu com o seu filho hoje?</b>
-                    </div>
-                </div>
-                <!--end quick info section -->
-            </div>
-
-           <!--
-           --> 	
-
-           	   <div class="panel panel-primary">
+                <div class="col-lg-12">
+                   <div class="panel panel-primary">
                         <div class="panel-heading">
-                            <div class="panel-heading">
-                            <i class="fa fa-bell fa-fw"></i>Notifications Panel
-                        	</div>
+                            <i class="fa fa-bar-chart-o fa-fw"></i>Tabela Exemplo
+                            <div class="pull-right">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
+                                        Noções
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu pull-right" role="menu">
+                                        <li><a href="#">Aplicações</a>
+                                        </li>
+                                        <li><a href="#">Monitorização</a>
+                                        </li>
+                                        <li><a href="#">Excessos</a>
+                                        </li>
+                                        <li class="divider"></li>
+                                        <li><a href="#">Pedagogia</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
 
                         <div class="panel-body">
-                            <div class="list-group">
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-comment fa-fw"></i>New Comment
-                                    <span class="pull-right text-muted small"><em>4 minutes ago</em>
-                                    </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-twitter fa-fw"></i>3 New Followers
-                                    <span class="pull-right text-muted small"><em>12 minutes ago</em>
-                                    </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-envelope fa-fw"></i>Message Sent
-                                    <span class="pull-right text-muted small"><em>27 minutes ago</em>
-                                    </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-tasks fa-fw"></i>New Task
-                                    <span class="pull-right text-muted small"><em>43 minutes ago</em>
-                                    </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-upload fa-fw"></i>Server Rebooted
-                                    <span class="pull-right text-muted small"><em>11:32 AM</em>
-                                    </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-bolt fa-fw"></i>Server Crashed!
-                                    <span class="pull-right text-muted small"><em>11:13 AM</em>
-                                    </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-warning fa-fw"></i>Server Not Responding
-                                    <span class="pull-right text-muted small"><em>10:57 AM</em>
-                                    </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-shopping-cart fa-fw"></i>New Order Placed
-                                    <span class="pull-right text-muted small"><em>9:49 AM</em>
-                                    </span>
-                                </a>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="table-responsive">
+                                        <table class="table table-bordered table-hover table-striped">
+                                            <thead>
+                                                <tr>
+                                                    <th>#</th>
+                                                    <th>Date</th>
+                                                    <th>Time</th>
+                                                    <th>Amount</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>3326</td>
+                                                    <td>10/21/2013</td>
+                                                    <td>3:29 PM</td>
+                                                    <td>$321.33</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3325</td>
+                                                    <td>10/21/2013</td>
+                                                    <td>3:20 PM</td>
+                                                    <td>$234.34</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3324</td>
+                                                    <td>10/21/2013</td>
+                                                    <td>3:03 PM</td>
+                                                    <td>$724.17</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3323</td>
+                                                    <td>10/21/2013</td>
+                                                    <td>3:00 PM</td>
+                                                    <td>$23.71</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3322</td>
+                                                    <td>10/21/2013</td>
+                                                    <td>2:49 PM</td>
+                                                    <td>$8345.23</td>
+                                                </tr>
+
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+                                </div>
 
                             </div>
-                            <!-- /.list-group -->
-                            <a href="#" class="btn btn-default btn-block">View All Alerts</a>
+                            <!-- /.row -->
                         </div>
-                     </div>
-           <!--
-
-           -->
-                <div class="col-lg-4">
-                    <div class="panel panel-primary text-center no-boder">
-                        <div class="panel-body yellow">
-                            <i class="fa fa-bar-chart-o fa-3x"></i>
-                            <h3>20,741 </h3>
-                        </div>
-                        <div class="panel-footer">
-                            <span class="panel-eyecandy-title">Daily User Visits
-                            </span>
-                        </div>
-                   <!-- </div>
-                    <div class="panel panel-primary text-center no-boder">
-                        <div class="panel-body blue">
-                            <i class="fa fa-pencil-square-o fa-3x"></i>
-                            <h3>2,060 </h3>
-                        </div>
-                        <div class="panel-footer">
-                            <span class="panel-eyecandy-title">Pending Orders Found
-                            </span>-->
-                    </div>
-                </div>
-                   <div class="col-lg-4">
-                    <div class="panel panel-primary text-center no-boder">
-                        <div class="panel-body green">
-                            <i class="fa fa fa-floppy-o fa-3x"></i>
-                            <h3>20 GB</h3>
-                        </div>
-                        <div class="panel-footer">
-                            <span class="panel-eyecandy-title">New Data Uploaded
-                            </span>
-                        </div>
+                        <!-- /.panel-body -->
                     </div>
                 </div>
 
-                <div class="col-lg-4">
-                    <div class="panel panel-primary text-center no-boder">
-                        <div class="panel-body red">
-                            <i class="fa fa fa-floppy-o fa-3x"></i>
-                            <h3>20 GB</h3>
-                        </div>
-                        <div class="panel-footer">
-                            <span class="panel-eyecandy-title">New Data Uploaded
-                            </span>
-                        </div>
-                    </div>
-                </div>
-
-         </div>
+                
+            </div>
         </div>
         <!-- end page-wrapper -->
 
@@ -366,10 +323,12 @@
     <script src="assets/plugins/metisMenu/jquery.metisMenu.js"></script>
     <script src="assets/plugins/pace/pace.js"></script>
     <script src="assets/scripts/siminta.js"></script>
-    <!-- Page-Level Plugin Scripts
-    <script src="assets/plugins/morris/raphael-2.1.0.min.js"></script>
-    <script src="assets/plugins/morris/morris.js"></script>
-    <script src="assets/scripts/dashboard-demo.js"></script>-->
+    <!-- Page-Level Plugin Scripts-->
+    <script src="assets/plugins/flot/jquery.flot.js"></script>
+    <script src="assets/plugins/flot/jquery.flot.tooltip.min.js"></script>
+    <script src="assets/plugins/flot/jquery.flot.resize.js"></script>
+    <script src="assets/plugins/flot/jquery.flot.pie.js"></script>
+    <script src="assets/scripts/flot-demo.js"></script>
 
 </body>
 
